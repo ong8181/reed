@@ -15,3 +15,12 @@ You can install the development version of reed from [GitHub](https://github.com
 remotes::install_github("ong8181/reed")
 ```
 
+## Examples
+
+You can load data by executing `data(data_name)`. Alternatively, you may use `data_loader()` function to batch-loading data set.
+
+```r
+# Batch-loading data set
+data_loader("ushio_2022_prsb")
+data_loader("ushio_2023_elife")
+```

@@ -3,7 +3,7 @@
 \docType{data}
 \name{ushio_2022_prsb_df_sample}
 \alias{ushio_2022_prsb_df_sample}
-\title{Data from Ushio (2022) Proc. Royal Soc. B: Sample table}
+\title{Data from Ushio (2022) Proc. Royal Soc. B: Sample data}
 \format{
 A data frame with 610 rows and 39 variables:
 }
@@ -14,6 +14,6 @@ A data frame with 610 rows and 39 variables:
 ushio_2022_prsb_df_sample
 }
 \description{
-Data from Ushio (2022) Proc. Royal Soc. B: Sample table
+Data from Ushio (2022) Proc. Royal Soc. B: Sample data
 }
 \keyword{datasets}

@@ -1,7 +1,7 @@
 Package: reed
 Type: Package
 Title: A collection of data sets useful for community ecology
-Version: 0.0.1
+Version: 0.0.2
 Author: Masayuki Ushio
 Maintainer: Masayuki Ushio <ong8181@gmail.com>
 Description: This package contains data sets that are useful for community ecology.
