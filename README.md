@@ -1,10 +1,10 @@
 
-# reed: Rice-field eDNA-based ecological community monitoring data
+# reed: An R pacakge to load and explore eDNA-based ecological community monitoring data
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-This R package is to load and explore the eDNA-based ecological community monitoring data analyzed in Ushio (2022) _Proceedings of the Royal Soceity B_ and rice growth data analyzed in Ushio et al. (2023) _eLife_. `reed` is built to facilitate the reuse of the data for community ecology studies.
+This R package enables loading and exploring eDNA-based ecological community monitoring data and associated data (e.g., climate and other ecological data). Current version includes data from Ushio (2022) _Proceedings of the Royal Society B_ and Ushio et al. (2023) _eLife_. `reed` is built to facilitate the reuse of the data for community ecology studies.
 
 ## Installation
 
@@ -13,14 +13,5 @@ You can install the development version of reed from [GitHub](https://github.com
 ``` r
 # install.packages("remotes")
 remotes::install_github("ong8181/reed")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(reed)
-## basic example code
 ```
 

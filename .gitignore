@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# ong8181 added
+R/.DS_Store
+R/.Rapp.history
+data/.DS_Store
