@@ -68,6 +68,6 @@ If you use data, please cite appropriate references.
 #### Data set
 - Ushio M (2022) Interaction capacity as a potential driver of community diversity. _Proceedings of the Royal Society B_ 289: 20212690 https://doi.org/10.1098/rspb.2021.2690
 
-- Ushio M, Sado T, Fukuchi T, Sasano S, Masuda R, Osada Y, Miya M (2023) Temperature sensitivity of the interspecific interaction strength of coastal marine fish communities. _eLife_ https://doi.org/10.7554/eLife.85795
+- (Reviewed preprint) Ushio M, Sado T, Fukuchi T, Sasano S, Masuda R, Osada Y, Miya M (2023) Temperature sensitivity of the interspecific interaction strength of coastal marine fish communities. _eLife_ https://doi.org/10.7554/eLife.85795
 
-- Ushio M, Saito H, Tojo M, Nagano AJ (2023) Detecting and validating influential organisms for rice growth: An ecological network approach. _eLife_ https://doi.org/10.7554/eLife.87202.1
+- (Reviewed preprint) Ushio M, Saito H, Tojo M, Nagano AJ (2023) Detecting and validating influential organisms for rice growth: An ecological network approach. _eLife_ https://doi.org/10.7554/eLife.87202.1
