@@ -15,9 +15,27 @@ All data were made available and archived along with the publications of the pap
 
 ## Installation
 
+You need to install [`phyloseq`](http://joey711.github.io/phyloseq/), [`speedyseq`](https://github.com/mikemc/speedyseq), and [`macamseq`](https://github.com/ong8181/macamseq) to use full functionalists of `reed`. To install them, use the following commands:
+
+```r
+# Install phyloseq
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("phyloseq")
+
+# Install speedyseq
+# install.packages("remotes")
+remotes::install_github("mikemc/speedyseq")
+
+# Install macamseq
+remotes::install_github("ong8181/macamseq")
+
+```
+
 You can install the development version of reed from [GitHub](https://github.com/) with:
 
-``` r
+```r
 # install.packages("remotes")
 remotes::install_github("ong8181/reed")
 ```
