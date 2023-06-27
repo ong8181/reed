@@ -7,7 +7,7 @@
 data_loader(dataset_name)
 }
 \arguments{
-\item{dataset_name}{Character. 'ushio_2022_prsb' or 'ushio_2023_elife'.}
+\item{dataset_name}{Character. 'ushio_2022_prsb', 'ushio_2023a_elife' or 'ushio_2023b_elife'.}
 }
 \description{
 \code{data_loader} Batch loading data set.
