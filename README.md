@@ -53,7 +53,7 @@ ps <- data_to_phyloseq("ushio_2022_prsb")
 # Visualize phylum-level temporal-dynamics
 (g1 <- view_ts_multitax(ps, "phylum"))
 
-# Visualize 
+# Visualize a single taxon-level temporal-dynamics
 (g2 <- view_ts_singletax(ps, "phylum", "Proteobacteria"))
 ```
 
