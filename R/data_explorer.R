@@ -77,7 +77,7 @@ view_ts_multitax <- function(ps_obj, phy_rank, top_taxa_n = 11, remove_others = 
   if (dataname == dataset_list[1] | dataname == dataset_list[3]) {
     ps_obj <- macamseq::taxa_name_bundle(ps_obj, phy_rank, top_taxa_n = top_taxa_n)
   } else if (dataname == dataset_list[2]) {
-    ps_obj <- macamseq::taxa_name_bundle(ps_obj, phy_rank, top_taxa_n = top_taxa_n, taxa_rank_list = c("order", "family", "scientific_name"))
+    ps_obj <- macamseq::taxa_name_bundle(ps_obj, phy_rank, top_taxa_n = top_taxa_n, taxa_rank_list = c("order", "family_w_n", "family", "scientific_name"))
   }
   phyloseq::tax_table(ps_obj) <- phyloseq::tax_table(ps_obj)[,c("bundled_tax")]
   ps_obj <- speedyseq::tax_glom(ps_obj, taxrank = "bundled_tax")
@@ -120,6 +120,7 @@ view_ts_singletax <- function(ps_obj, phy_rank, taxon) {
   # Bundle taxa
   valid_tax <- phyloseq::tax_table(ps_obj)[,phy_rank] == taxon
   ps_obj <- phyloseq::prune_taxa(phyloseq::taxa_names(ps_obj)[as.logical(valid_tax)], ps_obj)
+  phyloseq::tax_table(ps_obj) <- phyloseq::tax_table(ps_obj)[,phy_rank]
   ps_obj <- speedyseq::tax_glom(ps_obj, taxrank = phy_rank)
 
   # Generate ggplot2 object
