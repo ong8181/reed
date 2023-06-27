@@ -11,7 +11,7 @@ This R package enables loading and exploring eDNA-based ecological community mon
 - (Reviewed preprint) [Ushio et al. (2023b) _eLife_](https://doi.org/10.7554/eLife.87202.1)
 
 
-`reed` is built to facilitate the reuse of the data for community ecology studies.
+All data were made available and archived along with the publications of the papers/preprints, for example at Github or Zenodo. The data included in `reed` are virtually the same with the archived versions. However, the data in `reed` will be maintained and may be updated if relevant pipelines and reference database are updated.
 
 ## Installation
 
