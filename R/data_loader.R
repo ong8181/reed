@@ -11,19 +11,17 @@ data_loader <- function(dataset_name) {
     data("ushio_2022_prsb_df_climate")
     data("ushio_2022_prsb_df_sample")
     data("ushio_2022_prsb_df_taxa")
-    data("ushio_2022_prsb_psobj")
   }
 
   # Batch loading Ushio et al. (2023) eLife
-  if (dataset_name == "ushio_2023_elife") {
-    data("ushio_2023_elife_df_asvmat")
-    data("ushio_2023_elife_df_sample")
-    data("ushio_2023_elife_df_taxa")
-    data("ushio_2023_elife_psobj")
-    data("ushio_2023_elife_df_rice2017")
-    data("ushio_2023_elife_df_rice2019_gr")
-    data("ushio_2023_elife_df_rice2019_hd")
-    data("ushio_2023_elife_df_rice2019_yd")
+  if (dataset_name == "ushio_2023b_elife") {
+    data("ushio_2023b_elife_df_asvmat")
+    data("ushio_2023b_elife_df_sample")
+    data("ushio_2023b_elife_df_taxa")
+    data("ushio_2023b_elife_df_rice2017")
+    data("ushio_2023b_elife_df_rice2019_gr")
+    data("ushio_2023b_elife_df_rice2019_hd")
+    data("ushio_2023b_elife_df_rice2019_yd")
   }
 }
 
