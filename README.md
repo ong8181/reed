@@ -7,8 +7,8 @@
 This R package enables loading and exploring eDNA-based ecological community monitoring data and associated data (e.g., climate and other ecological data). Current version includes data from:
 
 - [Ushio (2022) _Proceedings of the Royal Society B_](https://doi.org/10.1098/rspb.2021.2690)
-- [Ushio et al. (2023a) _eLife_](https://doi.org/10.7554/eLife.85795.2)
-- [Ushio et al. (2023b) _eLife_](https://doi.org/10.7554/eLife.87202.1).
+- (Reviewed preprint) [Ushio et al. (2023a) _eLife_](https://doi.org/10.7554/eLife.85795.2)
+- (Reviewed preprint) [Ushio et al. (2023b) _eLife_](https://doi.org/10.7554/eLife.87202.1)
 
 
 `reed` is built to facilitate the reuse of the data for community ecology studies.
