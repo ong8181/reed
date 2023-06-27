@@ -124,6 +124,13 @@
 "ushio_2023b_elife_df_taxa"
 
 
+#' Data from Ushio (2023b) eLife: Climate data in 2019
+#'
+#' @format A data frame with 184 rows and 14 variables:
+#' @source \url{https://doi.org/10.7554/eLife.87202.1}
+"ushio_2023b_elife_df_climate2019"
+
+
 #' Data from Ushio (2023b) eLife: Rice growth monitoring data in 2019
 #'
 #' @format A data frame with 405 rows and 16 variables:
