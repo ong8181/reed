@@ -6,8 +6,8 @@
 
 This R package enables loading and exploring eDNA-based ecological community monitoring data and associated data (e.g., climate and other ecological data). Current version includes data from:
 
-- [Ushio (2022) _Proceedings of the Royal Society B_](https://doi.org/10.1098/rspb.2021.2690)
-- (Reviewed preprint) [Ushio et al. (2023a) _eLife_](https://doi.org/10.7554/eLife.85795.2)
+- [Ushio (2022) _Proceedings of the Royal Society B_ 289:20212690](https://doi.org/10.1098/rspb.2021.2690)
+- [Ushio et al. (2023a) _eLife_ 12:RP85795](https://doi.org/10.7554/eLife.85795)
 - (Reviewed preprint) [Ushio et al. (2023b) _eLife_](https://doi.org/10.7554/eLife.87202.1)
 
 
@@ -81,11 +81,15 @@ If you use data, please cite appropriate references.
 
 #### Package
 
-- Ushio M (2023) reed: A collection of data sets useful for community ecology. R package version 0.0.5, https://github.com/ong8181/reed
+- Ushio M (2023) reed: A collection of data sets useful for community ecology. R package version 0.1.0, https://github.com/ong8181/reed
 
 #### Data set
 - Ushio M (2022) Interaction capacity as a potential driver of community diversity. _Proceedings of the Royal Society B_ 289: 20212690 https://doi.org/10.1098/rspb.2021.2690
 
-- (Reviewed preprint) Ushio M, Sado T, Fukuchi T, Sasano S, Masuda R, Osada Y, Miya M (2023) Temperature sensitivity of the interspecific interaction strength of coastal marine fish communities. _eLife_ https://doi.org/10.7554/eLife.85795
+- Ushio M, Sado T, Fukuchi T, Sasano S, Masuda R, Osada Y, Miya M (2023) Temperature sensitivity of the interspecific interaction strength of coastal marine fish communities. _eLife_ https://doi.org/10.7554/eLife.85795
 
 - (Reviewed preprint) Ushio M, Saito H, Tojo M, Nagano AJ (2023) Detecting and validating influential organisms for rice growth: An ecological network approach. _eLife_ https://doi.org/10.7554/eLife.87202.1
+
+#### References
+- McLaren M (2020) "mikemc/speedyseq: speedyseq v0.2.0" https://doi.org/10.5281/zenodo.3923184 https://github.com/mikemc/speedyseq
+- McMurdie and Holmes (2013) phyloseq: An R package for reproducible interactive analysis and graphics of microbiome census data. PLoS ONE 8(4):e61217 https://doi.org/10.1371/journal.pone.0061217
