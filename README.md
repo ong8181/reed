@@ -2,6 +2,7 @@
 # reed: An R pacakge to load and explore eDNA-based ecological community monitoring data
 
 <!-- badges: start -->
+[![DOI](https://zenodo.org/badge/634494778.svg)](https://zenodo.org/badge/latestdoi/634494778)
 <!-- badges: end -->
 
 This R package enables loading and exploring eDNA-based ecological community monitoring data and associated data (e.g., climate and other ecological data). Current version includes data from:
@@ -75,6 +76,11 @@ ps <- data_to_phyloseq("ushio_2022_prsb")
 (g2 <- view_ts_singletax(ps, "phylum", "Proteobacteria"))
 ```
 
+## Dependencies
+- McLaren M (2020) "mikemc/speedyseq: speedyseq v0.2.0" https://doi.org/10.5281/zenodo.3923184 https://github.com/mikemc/speedyseq
+- McMurdie and Holmes (2013) phyloseq: An R package for reproducible interactive analysis and graphics of microbiome census data. PLoS ONE 8(4):e61217 https://doi.org/10.1371/journal.pone.0061217
+
+
 ## Citation
 
 If you use data, please cite appropriate references.
@@ -90,6 +96,3 @@ If you use data, please cite appropriate references.
 
 - (Reviewed preprint) Ushio M, Saito H, Tojo M, Nagano AJ (2023) Detecting and validating influential organisms for rice growth: An ecological network approach. _eLife_ https://doi.org/10.7554/eLife.87202.1
 
-#### References
-- McLaren M (2020) "mikemc/speedyseq: speedyseq v0.2.0" https://doi.org/10.5281/zenodo.3923184 https://github.com/mikemc/speedyseq
-- McMurdie and Holmes (2013) phyloseq: An R package for reproducible interactive analysis and graphics of microbiome census data. PLoS ONE 8(4):e61217 https://doi.org/10.1371/journal.pone.0061217
