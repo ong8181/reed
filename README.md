@@ -87,7 +87,7 @@ If you use data, please cite appropriate references.
 
 #### Package
 
-- Ushio M (2023) reed: A collection of data sets useful for community ecology. R package version 0.1.0, https://github.com/ong8181/reed
+- Ushio M (2023) reed: A collection of data sets useful for community ecology. R package version 0.7.0, https://github.com/ong8181/reed
 
 #### Data set
 - Ushio M (2022) Interaction capacity as a potential driver of community diversity. _Proceedings of the Royal Society B_ 289: 20212690 https://doi.org/10.1098/rspb.2021.2690
