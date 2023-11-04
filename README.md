@@ -16,7 +16,7 @@ All data were made available and archived along with the publications of the pap
 
 ## Installation
 
-You need to install [`phyloseq`](http://joey711.github.io/phyloseq/), [`speedyseq`](https://github.com/mikemc/speedyseq), and [`macamseq`](https://github.com/ong8181/macamseq) to use full functionalists of `reed`. To install them, use the following commands:
+You need to install [`phyloseq`](http://joey711.github.io/phyloseq/), [`speedyseq`](https://github.com/mikemc/speedyseq), and [`macamseq`](https://github.com/ong8181/macamseq) to use visualization functions of `reed` (data may be loaded without installing the packages). To install them, use the following commands:
 
 ```r
 # Install phyloseq
