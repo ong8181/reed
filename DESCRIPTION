@@ -1,7 +1,7 @@
 Package: reed
 Type: Package
 Title: A collection of data sets useful for community ecology
-Version: 0.7.0
+Version: 0.8.0
 Author: Masayuki Ushio
 Maintainer: Masayuki Ushio <ong8181@gmail.com>
 Description: This package contains data sets that are useful for community ecology.
@@ -10,7 +10,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.3.2
 Imports: 
     phyloseq,
     macamseq,
@@ -19,4 +19,4 @@ Imports:
     speedyseq,
     utils
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5)
